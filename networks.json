@@ -1,0 +1,171 @@
+[{
+        "title": "Desbalanceados",
+        "type": "divider"
+    }, {
+        "id": 16,
+        "title": "5-15-30-50",
+        "desc": "Artificial 2. Executado com Pdet = 0,1.",
+        "file": "/mpc-playbacks/art2_unb_5_15_30_50.json",
+        "accuracy": "100",
+        "layers": 4,
+        "nodes": 100,
+        "color": "pink darken-3",
+        "type": "item"
+    }, {
+        "id": 15,
+        "title": "5-15-30",
+        "desc": "Artificial 2. Executado com Pdet = 0,1.",
+        "file": "/mpc-playbacks/art2_unb_5_15_30_low.json",
+        "accuracy": "?",
+        "layers": 4,
+        "nodes": 50,
+        "color": "pink darken-2",
+        "type": "item"
+    }, {
+        "id": 14,
+        "title": "5-30, bem conectado",
+        "desc": "Artificial 2. Executado com Pdet = 0,1.",
+        "file": "/mpc-playbacks/art2_unb_5_30_high.json",
+        "accuracy": "?",
+        "layers": 4,
+        "nodes": 35,
+        "color": "pink darken-1",
+        "type": "item"
+    }, {
+        "id": 13,
+        "title": "5-30, pouco conectado",
+        "desc": "Artificial 2. Executado com Pdet = 0.",
+        "file": "/mpc-playbacks/art2_unb_5_30_low.json",
+        "accuracy": "?",
+        "layers": 4,
+        "nodes": 35,
+        "color": "pink lighten-1",
+        "type": "item"
+    }, {
+        "id": 12,
+        "title": "5-100",
+        "desc": "Artificial 2. Executado com Pdet = 0.",
+        "file": "/mpc-playbacks/art2_unb_15_100.json",
+        "accuracy": "?",
+        "layers": 4,
+        "nodes": 105,
+        "color": "pink lighten-2",
+        "type": "item"
+    }, {
+        "title": "Testes para quali",
+        "type": "divider"
+    },
+    {
+        "id": 0,
+        "title": "Pierre Auger Collaboration",
+        "desc": "Execução com K = 30. Rede multiplex de colaboração entre autores, considerando submissões entre 2010 e 2012. Cada camada representa uma área de atuação.",
+        "info": "The multiplex consists of layers corresponding to different working tasks within the Pierre Auger Collaboration. We considered all submissions between 2010 and 2012 and assigned each report to 16 layers according to its keywords and its content, with manual disambiguation to avoid spurious results from an automated process.<br>The multiplex network used in the paper makes use of 16 layers corresponding to: <br> ◈Neutrinos <br> ◈Detector <br> ◈Enhancements <br> ◈Anisotropy <br> ◈Point - source <br> ◈Mass - composition <br> ◈Horizontal <br> ◈Hybrid - reconstruction <br> ◈Spectrum <br> ◈Photons <br> ◈Atmospheric <br> ◈SD - reconstruction <br> ◈Hadronic - interactions <br> ◈Exotics <br> ◈Magnetic <br> ◈Astrophysical - scenarios ",
+        "file": "/mpc-playbacks/coauthorship_30.json",
+        "accuracy": "?",
+        "layers": 16,
+        "nodes": 514,
+        "color": "black darken-2",
+        "type": "item"
+    }, {
+        "id": 9,
+        "title": "Students’ Cooperation Social Network",
+        "desc": "185 vértices em 3 camadas, com 51 partículas na rede. Não há tratamento de componentes.",
+        "file": "/mpc-playbacks/students.json",
+        "nodes": 185,
+        "layers": 3,
+        "info": "Students’ Cooperation Social Network was constructed from the data collected during a “Computer and Network Security” course; a mandatory course at Ben-Gurion University. The social network contains data collected from 185 participating students from two different departments. The course’s social network was created by analyzing the implicit and explicit cooperation among the students while doing their homework assignments. The students’ cooperation graph contained 185 nodes and 360 links and 3 types of links. ",
+        "accuracy": "?",
+        "color": "red darken-2",
+        "type": "item"
+    }, {
+        "id": 1,
+        "title": "Artificial #2",
+        "desc": "80 vértices em 4 comunidades contendo apenas uma conexão entre cada comunidade. Acurácia de 100%.",
+        "file": "/mpc-playbacks/art2_4com_low.json",
+        "accuracy": "100%",
+        "nodes": 80,
+        "layers": 4,
+        "color": "teal darken-2",
+        "type": "item"
+    }, {
+        "id": 2,
+        "title": "Artificial #2",
+        "desc": "80 vértices em 4 comunidades. Acurácia de 100%",
+        "nodes": 80,
+        "layers": 4,
+        "file": "/mpc-playbacks/art2_4com_dense.json",
+        "accuracy": "100%",
+        "color": "teal darken-2",
+        "type": "item"
+    }, {
+        "id": 3,
+        "title": "Artificial #2",
+        "desc": "40 vértices em 4 comunidades, bem conectado entre as comunidades. Acurácia de 100%",
+        "file": "/mpc-playbacks/art2_4com_dense.json",
+        "accuracy": "100%",
+        "color": "teal darken-2",
+        "nodes": 40,
+        "layers": 4,
+        "type": "item"
+    }, {
+        "id": 4,
+        "title": "Artificial #2 (c/ falha)",
+        "desc": "100 vértices em 10 comunidades, altamente conectado entre as comunidades. Com fenômeno de falha. Acurácia de 90%",
+        "file": "/mpc-playbacks/art2_10com_high.json",
+        "accuracy": "90%",
+        "nodes": 100,
+        "layers": 4,
+        "color": "orange darken-2",
+        "type": "item"
+    }, {
+        "id": 5,
+        "title": "Artificial #2 (s/ falha)",
+        "desc": "100 vértices em 10 comunidades, altamente conectado entre as comunidades. Acurácia de 100%",
+        "file": "/mpc-playbacks/art2_10com_high_no_failure.json",
+        "accuracy": "100%",
+        "nodes": 100,
+        "layers": 4,
+        "color": "orange darken-2",
+        "type": "item"
+    }, {
+        "id": 6,
+        "title": "Artificial #1 (90%)",
+        "desc": "100 vértices em 4 comunidades, 90% de conexões internas. Acurácia de 100%",
+        "file": "/mpc-playbacks/art1_4_90.json",
+        "accuracy": "100%",
+        "nodes": 100,
+        "layers": 4,
+        "color": "grey darken-2",
+        "type": "item"
+    }, {
+        "id": 10,
+        "title": "Artificial #1 (90%)",
+        "desc": "200 vértices em 4 comunidades, 10 vizinhos, c/ 90% de conexões internas. Acurácia de 100%",
+        "file": "/mpc-playbacks/art1_4_bigger_90.json",
+        "accuracy": "100%",
+        "nodes": 200,
+        "layers": 4,
+        "color": "grey darken-2",
+        "type": "item"
+    }, {
+        "id": 7,
+        "title": "Artificial #1 (70%)",
+        "desc": "200 vértices em 4 comunidades, 10 vizinhos, 70% de conexões internas. Acurácia de 99,5%",
+        "file": "/mpc-playbacks/art1_4_70.json",
+        "accuracy": "99,5%",
+        "nodes": 200,
+        "layers": 4,
+        "color": "grey darken-2",
+        "type": "item"
+    }, {
+        "id": 11,
+        "title": "Artificial #1 (50%)",
+        "desc": "200 vértices em 4 comunidades, 10 vizinhos, 50% de conexões internas. Acurácia de 95%",
+        "file": "/mpc-playbacks/art1_4_50.json",
+        "accuracy": "95%",
+        "nodes": 200,
+        "layers": 4,
+        "color": "grey darken-2",
+        "type": "item"
+    }
+]
