@@ -1,5 +1,5 @@
 <template>
-  <ContentList v-slot="{ list }" path="/posts" :query="{ where: [{title: {'$ne': 'Posts'}}] }">
+  <ContentList v-slot="{ list }" path="/posts" :query="{ where: [{title: {'$ne': 'Posts'}}], sort: {date: -1} }">
 
     <card
       v-for="article in list" :key="article._path"

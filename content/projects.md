@@ -13,6 +13,7 @@ actions:
   to: https://nextfrontiers.com.br/site/nftcc2024/trabalhos-premiados
   leftIcon: 'lucide:scroll-text'
   target: _blank
+  variant: outline
 ---
 #title
 OncoAssist
