@@ -5,8 +5,9 @@
       v-for="article in list" :key="article._path"
       :to="article._path"
       :title="article.title"
-      :description="article.description"
+      :description="article.pretty_date"
     >
+      {{article.description}}
     </card>
   </ContentList>
 </template>
