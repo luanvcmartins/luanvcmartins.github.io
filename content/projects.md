@@ -53,12 +53,12 @@ actions:
 
 ---
 #title
-WSI2ML
+WSI // ML
 
 #description
 A software I developed during my Ph.D. for annotating Whole Slide Images. This web-based software facilitates efficient
 delegation, tracking, and validation of machine learning annotation tasks for histopathology images, utilizing
-technologies like Flask, SQLAlchemy, Vue, and OpenSlide.
+technologies like Flask, MongoDB, Vue, and OpenSlide.
 
 #right
 ![photo](/imgs/wsi2ml.png)

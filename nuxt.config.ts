@@ -6,5 +6,5 @@ export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
   compatibilityDate: '2024-07-06',
   modules: ['@nuxt/fonts'],
-  ogImage: { enabled: false }
+  ogImage: { enabled: true }
 });
